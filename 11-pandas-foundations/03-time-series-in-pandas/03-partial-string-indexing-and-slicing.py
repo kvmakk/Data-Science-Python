@@ -16,7 +16,7 @@ INSTRUCTIONS
 -Extract data from ts0 for the second half of December 2010 - 12/15/2010 to 12/31/2010. Assign it to ts3.
 '''
 # Extract the hour from 9pm to 10pm on '2010-10-11': ts1
-ts1 = ts0.loc['2010-10-11 21:00:00']
+ts1 = ts0.loc['2010-10-11 21:00:00':'2010-10-11 22:00:00']
 
 # Extract '2010-07-04' from ts0: ts2
 ts2 = ts0.loc['2010-07-04']
