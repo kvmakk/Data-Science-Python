@@ -21,3 +21,5 @@ First: CSS, 104170.0; Last: USA, 95.203.
 press 4
 '''
 2
+
+Solved with df.head().index and df.tail().index
